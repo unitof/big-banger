@@ -1,0 +1,10 @@
+@keyframes bigbang-g1 {
+    from {
+    	top: calc(50% + 10px - 6px);
+    	left: calc(50% + 10px - 6px);
+    }
+    to {
+    	top: 0;
+    	left: 0;
+    }
+}
