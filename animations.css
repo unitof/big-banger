@@ -26,7 +26,7 @@
 		left: calc(50% - 6px);
 	}
 	to {
-		top: calc(42%);
+		top: 42%;
 		left: calc(100% - 12px);
 	}
 }
@@ -37,8 +37,8 @@
 		left: calc(50% - 6px);
 	}
 	to {
-		top: calc(100% - 12px);
-		left: calc(68%);
+		top: 58%;
+		left: 0;
 	}
 }
 
