@@ -43,7 +43,7 @@
 }
 
 @keyframes bigbang-g5 {
-	from {
+	3% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -54,7 +54,7 @@
 }
 
 @keyframes bigbang-g6 {
-	from {
+	5% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -65,7 +65,7 @@
 }
 
 @keyframes bigbang-g7 {
-	from {
+	7% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -76,7 +76,7 @@
 }
 
 @keyframes bigbang-g8 {
-	from {
+	6% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
