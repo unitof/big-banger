@@ -8,3 +8,14 @@
     	left: 0;
     }
 }
+
+@keyframes bigbang-g2 {
+    from {
+    	top: calc(50% + 10px - 6px);
+    	left: calc(50% + 10px - 6px);
+    }
+    to {
+    	bottom: 6;
+    	right: 6;
+    }
+}
