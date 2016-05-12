@@ -42,7 +42,31 @@
 	}
 }
 
+@keyframes bigbang-g5 {
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: calc(100% - 12px);
+		left: 11%;
+	}
+}
+
+@keyframes bigbang-g6 {
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: 0;
+		left: 89%;
+	}
+}
+
 div#g1 { animation-name: bigbang-g1; }
 div#g2 { animation-name: bigbang-g2; }
 div#g3 { animation-name: bigbang-g3; }
 div#g4 { animation-name: bigbang-g4; }
+div#g5 { animation-name: bigbang-g5; }
+div#g6 { animation-name: bigbang-g6; }
