@@ -1,23 +1,23 @@
 @keyframes bigbang-g1 {
-    from {
-    	top: calc(50% - 6px);
-    	left: calc(50% - 6px);
-    }
-    to {
-    	top: 0;
-    	left: 0;
-    }
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: 0;
+		left: 0;
+	}
 }
 
 @keyframes bigbang-g2 {
-    from {
-    	top: calc(50% - 6px);
-    	left: calc(50% - 6px);
-    }
-    to {
-    	top: calc(100% - 12px);
-    	left: calc(100% - 12px);
-    }
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: calc(100% - 12px);
+		left: calc(100% - 12px);
+	}
 }
 
 div#g1 {
