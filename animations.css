@@ -15,8 +15,8 @@
     	left: calc(50% + 10px - 6px);
     }
     to {
-    	bottom: 6;
-    	right: 6;
+    	top: calc(100% - 12px);
+    	left: calc(100% - 12px);
     }
 }
 
