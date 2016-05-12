@@ -1,5 +1,5 @@
 @keyframes bigbang-g1 {
-	from {
+	0% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -10,7 +10,7 @@
 }
 
 @keyframes bigbang-g2 {
-	from {
+	2% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -21,7 +21,7 @@
 }
 
 @keyframes bigbang-g3 {
-	from {
+	1% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -32,7 +32,7 @@
 }
 
 @keyframes bigbang-g4 {
-	from {
+	4% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
