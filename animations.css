@@ -64,9 +64,33 @@
 	}
 }
 
+@keyframes bigbang-g7 {
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: 0;
+		left: calc(50% - 6px);
+	}
+}
+
+@keyframes bigbang-g8 {
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: calc(100% - 6px);
+		left: calc(50% - 6px);
+	}
+}
+
 div#g1 { animation-name: bigbang-g1; }
 div#g2 { animation-name: bigbang-g2; }
 div#g3 { animation-name: bigbang-g3; }
 div#g4 { animation-name: bigbang-g4; }
 div#g5 { animation-name: bigbang-g5; }
 div#g6 { animation-name: bigbang-g6; }
+div#g7 { animation-name: bigbang-g7; }
+div#g8 { animation-name: bigbang-g8; }
