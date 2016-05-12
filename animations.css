@@ -31,14 +31,6 @@
 	}
 }
 
-div#g1 {
-	animation-name: bigbang-g1;
-}
-
-div#g2 {
-	animation-name: bigbang-g2;
-}
-
-div#g3 {
-	animation-name: bigbang-g3;
-}
+div#g1 { animation-name: bigbang-g1; }
+div#g2 { animation-name: bigbang-g2; }
+div#g3 { animation-name: bigbang-g3; }
