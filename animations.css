@@ -20,10 +20,25 @@
 	}
 }
 
+@keyframes bigbang-g3 {
+	from {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: calc(42%);
+		left: calc(100% - 12px);
+	}
+}
+
 div#g1 {
 	animation-name: bigbang-g1;
 }
 
 div#g2 {
 	animation-name: bigbang-g2;
+}
+
+div#g3 {
+	animation-name: bigbang-g3;
 }
