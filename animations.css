@@ -98,3 +98,7 @@
 #universe.omegaet1 .galaxy {
 	animation-timing-function: cubic-bezier(0,.11,.44,.44);
 }
+
+#universe.omegalt1 .galaxy {
+	animation-timing-function: cubic-bezier(0,.04,.26,.26);
+}
