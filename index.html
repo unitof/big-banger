@@ -19,6 +19,35 @@ div#background {
 	background-color: #222222;
 }
 
+div#universe {
+	position: relative;
+	width: calc(100vw + 24px);
+	height: calc(100vh + 24px);
+	top: -12px;
+	left: -12px;
+
+	pointer-events: none;
+}
+
+div.galaxy {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+
+	top: calc(50% - 6px);
+	left: calc(50% - 6px);
+
+	background-color: #cfcfcf;
+
+	animation-duration: 5s;
+	animation-fill-mode: both;
+}
+
+div#universe:not(.running) div.galaxy:not(#g1) {
+	display: none;
+}
+
 div#controlpanel {
 	min-height: 1em;
 	margin-bottom: 8px;
@@ -44,35 +73,6 @@ form#modelchooser label {
 
 form#modelchooser input[name=expmodel]:checked + label {
 	color: #cfcfcf;
-}
-
-div#universe {
-	position: relative;
-	width: calc(100vw + 24px);
-	height: calc(100vh + 24px);
-	top: -12px;
-	left: -12px;
-
-	pointer-events: none;
-}
-
-div#universe:not(.running) div.galaxy:not(#g1) {
-	display: none;
-}
-
-div.galaxy {
-	position: absolute;
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-
-	top: calc(50% - 6px);
-	left: calc(50% - 6px);
-
-	background-color: #cfcfcf;
-
-	animation-duration: 5s;
-	animation-fill-mode: both;
 }
 
 	</style>
