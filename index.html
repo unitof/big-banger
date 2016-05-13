@@ -19,6 +19,17 @@ div#background {
 	background-color: #222222;
 }
 
+div#controlpanel {
+	height: 32px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+form#modelchooser input[type=radio] {
+	display: none;
+}
+
 div#universe {
 	position: relative;
 	width: calc(100vw + 24px);
@@ -64,16 +75,18 @@ function runsimulation(omegaval) {
 <body>
 	<div id="background">
 		<h1>The Big Banger</h1>
-		<form id="modelchooser">
-			<input type="radio" name="expmodel" id="omegagt1" onclick="runsimulation('omegagt1');">
-			<label for="omegagt1">&#937; &gt; 1</label>
-			<input type="radio" name="expmodel" id="omegalt1" onclick="runsimulation('omegalt1');">
-			<label for="omegalt1">&#937; &lt; 1</label>
-			<input type="radio" name="expmodel" id="omegaet1" onclick="runsimulation('omegaet1');">
-			<label for="omegaet1">&#937; = 1</label>
-			<input type="radio" name="expmodel" id="omegalt1wde" onclick="runsimulation('omegalt1wde');">
-			<label for="omegalt1wde">&#937; &gt; 1 + dark matter</label>
-		</form>
+		<div id="controlpanel">
+			<form id="modelchooser">
+				<input type="radio" name="expmodel" id="omegagt1" onclick="runsimulation('omegagt1');">
+				<label for="omegagt1">&#937; &gt; 1</label>
+				<input type="radio" name="expmodel" id="omegalt1" onclick="runsimulation('omegalt1');">
+				<label for="omegalt1">&#937; &lt; 1</label>
+				<input type="radio" name="expmodel" id="omegaet1" onclick="runsimulation('omegaet1');">
+				<label for="omegaet1">&#937; = 1</label>
+				<input type="radio" name="expmodel" id="omegalt1wde" onclick="runsimulation('omegalt1wde');">
+				<label for="omegalt1wde">&#937; &gt; 1 + dark matter</label>
+			</form>
+		</div>
 	</div>
 	<div id="universe"> <!-- do not set any .class on #universe; will get overridden by runsimulation(); -->
 		<div class="galaxy" id="g1"></div>
