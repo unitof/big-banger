@@ -76,15 +76,26 @@ form#modelchooser input[name=expmodel]:checked + label {
 	color: #cfcfcf;
 }
 
-h1#title {
-	margin: 0;
+div#title {
+	position: absolute;
+	text-align: left;
 	font-family: Raleway;
 	font-weight: 100;
 	text-transform: uppercase;
-	letter-spacing: 12px;
-	position: absolute;
 	top: calc(50% + 8px);
 	left: calc(50% - 156px);
+}
+
+h1 {
+	font-size: 24pt;
+	margin: 0;
+	letter-spacing: 12px;
+}
+
+h2 {
+	position: relative;
+	font-size: 12pt;
+	letter-spacing: 12px;
 }
 
 .bootscreen {
@@ -113,7 +124,10 @@ function runsimulation(omegaval) {
 </head>
 <body class="prebang">
 	<div id="background">
-		<h1 id="title" class="bootscreen">The Big Banger</h1>
+		<div id='title' class="bootscreen">
+			<h1>The Big Banger</h1>
+			<h2>by Jacob Ford</h2>
+		</div>
 		<div id="controlpanel">
 			<form id="modelchooser">
 				<input type="radio" name="expmodel" id="omegalt1" onclick="runsimulation('omegalt1');">
