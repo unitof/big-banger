@@ -1,4 +1,4 @@
-@keyframes nodarkengery-g1 {
+@keyframes bigbang-g1 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -9,7 +9,7 @@
 	}
 }
 
-@keyframes nodarkengery-g2 {
+@keyframes bigbang-g2 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -20,7 +20,7 @@
 	}
 }
 
-@keyframes nodarkengery-g3 {
+@keyframes bigbang-g3 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -31,7 +31,7 @@
 	}
 }
 
-@keyframes nodarkengery-g4 {
+@keyframes bigbang-g4 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -42,7 +42,7 @@
 	}
 }
 
-@keyframes nodarkengery-g5 {
+@keyframes bigbang-g5 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -53,7 +53,7 @@
 	}
 }
 
-@keyframes nodarkengery-g6 {
+@keyframes bigbang-g6 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -64,7 +64,7 @@
 	}
 }
 
-@keyframes nodarkengery-g7 {
+@keyframes bigbang-g7 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -75,7 +75,7 @@
 	}
 }
 
-@keyframes nodarkengery-g8 {
+@keyframes bigbang-g8 {
 	from {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
@@ -86,11 +86,11 @@
 	}
 }
 
-div#g1 { animation-name: nodarkengery-g1; }
-div#g2 { animation-name: nodarkengery-g2; }
-div#g3 { animation-name: nodarkengery-g3; }
-div#g4 { animation-name: nodarkengery-g4; }
-div#g5 { animation-name: nodarkengery-g5; }
-div#g6 { animation-name: nodarkengery-g6; }
-div#g7 { animation-name: nodarkengery-g7; }
-div#g8 { animation-name: nodarkengery-g8; }
+div#g1 { animation-name: bigbandg-g1; }
+div#g2 { animation-name: bigbandg-g2; }
+div#g3 { animation-name: bigbandg-g3; }
+div#g4 { animation-name: bigbandg-g4; }
+div#g5 { animation-name: bigbandg-g5; }
+div#g6 { animation-name: bigbandg-g6; }
+div#g7 { animation-name: bigbandg-g7; }
+div#g8 { animation-name: bigbandg-g8; }
