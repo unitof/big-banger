@@ -86,11 +86,11 @@
 	}
 }
 
-div.running#g1 { animation-name: bigbang-g1; }
-div.running#g2 { animation-name: bigbang-g2; }
-div.running#g3 { animation-name: bigbang-g3; }
-div.running#g4 { animation-name: bigbang-g4; }
-div.running#g5 { animation-name: bigbang-g5; }
-div.running#g6 { animation-name: bigbang-g6; }
-div.running#g7 { animation-name: bigbang-g7; }
-div.running#g8 { animation-name: bigbang-g8; }
+div#g1.running { animation-name: bigbang-g1; }
+div#g2.running { animation-name: bigbang-g2; }
+div#g3.running { animation-name: bigbang-g3; }
+div#g4.running { animation-name: bigbang-g4; }
+div#g5.running { animation-name: bigbang-g5; }
+div#g6.running { animation-name: bigbang-g6; }
+div#g7.running { animation-name: bigbang-g7; }
+div#g8.running { animation-name: bigbang-g8; }
