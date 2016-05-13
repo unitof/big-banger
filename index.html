@@ -28,6 +28,10 @@ div#universe {
 	pointer-events: none;
 }
 
+div#universe:not(.running) div.galaxy:not(#g1) {
+	display: none;
+}
+
 div.galaxy {
 	position: absolute;
 	width: 12px;
