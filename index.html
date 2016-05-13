@@ -75,6 +75,17 @@ form#modelchooser input[name=expmodel]:checked + label {
 	color: #cfcfcf;
 }
 
+h1#title {
+	margin: 0;
+	font-family: Raleway;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	position: absolute;
+	top: calc(50% + 8px);
+	left: calc(50% - 156px);
+}
+
 	</style>
 	<script type="text/javascript">
 
@@ -90,7 +101,7 @@ function runsimulation(omegaval) {
 </head>
 <body>
 	<div id="background">
-		<h1>The Big Banger</h1>
+		<h1 id="title" class="bootscreen">The Big Banger</h1>
 		<div id="controlpanel">
 			<form id="modelchooser">
 				<input type="radio" name="expmodel" id="omegalt1" onclick="runsimulation('omegalt1');">
