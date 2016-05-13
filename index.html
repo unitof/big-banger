@@ -44,7 +44,7 @@ div.galaxy {
 	animation-fill-mode: both;
 }
 
-div#universe:not(.running) div.galaxy:not(#g1) {
+body:not(.running) div.galaxy:not(#g1) {
 	display: none;
 }
 
@@ -90,11 +90,12 @@ h1#title {
 	<script type="text/javascript">
 
 function runsimulation(omegaval) {
+	time = document.body;
 	universe = document.getElementById('universe');
-	universe.classList.remove('running'); // reset #universe to pre-big bang
+	time.classList.remove('running'); // reset #universe to pre-big bang
 	universe.offsetWidth = universe.offsetWidth; // reflow the #universe to force animation iteration counts to reset
 	universe.className = omegaval; // set proper cubic-bezier function, defined in animations.css
-	universe.classList.add('running'); // begin simulation
+	time.classList.add('running'); // begin simulation
 }
 
 	</script>
