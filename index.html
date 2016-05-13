@@ -20,14 +20,25 @@ div#background {
 }
 
 div#controlpanel {
-	height: 32px;
+	min-height: 1em;
+	margin-bottom: 8px;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
 }
 
+form#modelchooser {
+	margin: 0 auto;
+}
+
 form#modelchooser input[type=radio] {
 	display: none;
+}
+
+form#modelchooser label {
+	display: inline-block;
+	margin: 0 2em;
 }
 
 div#universe {
