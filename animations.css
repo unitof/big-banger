@@ -1,5 +1,6 @@
+/* to top left */
 @keyframes bigbang-g1 {
-	0% {
+	0.0% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -9,8 +10,21 @@
 	}
 }
 
+/* to top right */
 @keyframes bigbang-g2 {
-	.8% {
+	0.4% {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: 0;
+		left: calc(100% - 12px);
+	}
+}
+
+/* to bottom right */
+@keyframes bigbang-g3 {
+	0.8% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -20,69 +34,63 @@
 	}
 }
 
-@keyframes bigbang-g3 {
-	.4% {
-		top: calc(50% - 6px);
-		left: calc(50% - 6px);
-	}
-	to {
-		top: 42%;
-		left: calc(100% - 12px);
-	}
-}
-
+/* to bottom left */
 @keyframes bigbang-g4 {
-	1.6% {
-		top: calc(50% - 6px);
-		left: calc(50% - 6px);
-	}
-	to {
-		top: 58%;
-		left: 0;
-	}
-}
-
-@keyframes bigbang-g5 {
 	1.2% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
 	to {
 		top: calc(100% - 12px);
-		left: 11%;
+		left: 0;
 	}
 }
 
+/* to top middle */
+@keyframes bigbang-g5 {
+	1.6% {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: 0;
+		left: calc(50% - 6px);
+	}
+}
+
+/* to right middle */
 @keyframes bigbang-g6 {
 	2.0% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
 	to {
-		top: 0;
-		left: 89%;
-	}
-}
-
-@keyframes bigbang-g7 {
-	2.8% {
 		top: calc(50% - 6px);
-		left: calc(50% - 6px);
-	}
-	to {
-		top: 0;
-		left: calc(50% - 6px);
+		left: calc(100% - 12px);
 	}
 }
 
-@keyframes bigbang-g8 {
+/* to bottom middle */
+@keyframes bigbang-g7 {
 	2.4% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
 	to {
-		top: calc(100% - 6px);
+		top: calc(100% - 12px);
 		left: calc(50% - 6px);
+	}
+}
+
+/* to left middle */
+@keyframes bigbang-g8 {
+	2.8% {
+		top: calc(50% - 6px);
+		left: calc(50% - 6px);
+	}
+	to {
+		top: calc(50% - 6px);
+		left: 0;
 	}
 }
 
