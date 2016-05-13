@@ -86,14 +86,14 @@
 	}
 }
 
-#galaxy.running #g1 { animation-name: bigbang-g1; }
-#galaxy.running #g2 { animation-name: bigbang-g2; }
-#galaxy.running #g3 { animation-name: bigbang-g3; }
-#galaxy.running #g4 { animation-name: bigbang-g4; }
-#galaxy.running #g5 { animation-name: bigbang-g5; }
-#galaxy.running #g6 { animation-name: bigbang-g6; }
-#galaxy.running #g7 { animation-name: bigbang-g7; }
-#galaxy.running #g8 { animation-name: bigbang-g8; }
+#universe.running #g1 { animation-name: bigbang-g1; }
+#universe.running #g2 { animation-name: bigbang-g2; }
+#universe.running #g3 { animation-name: bigbang-g3; }
+#universe.running #g4 { animation-name: bigbang-g4; }
+#universe.running #g5 { animation-name: bigbang-g5; }
+#universe.running #g6 { animation-name: bigbang-g6; }
+#universe.running #g7 { animation-name: bigbang-g7; }
+#universe.running #g8 { animation-name: bigbang-g8; }
 
 #universe.omegaet1 .galaxy {
 	animation-timing-function: cubic-bezier(0,.11,.44,.44);
