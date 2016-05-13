@@ -127,6 +127,11 @@ function runsimulation(omegaval) {
 	universe.offsetWidth = universe.offsetWidth; // reflow the #universe to force animation iteration counts to reset
 	universe.className = omegaval; // set proper cubic-bezier function, defined in animations.css
 	time.classList.add('running'); // begin simulation
+	ga('send', {
+		hitType: 'event',
+		eventCategory: 'Omega',
+		eventAction: 'change to ' + omegaval
+	});
 }
 
 	</script>
