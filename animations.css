@@ -102,3 +102,9 @@
 #universe.omegalt1 .galaxy {
 	animation-timing-function: cubic-bezier(0,.04,.26,.26);
 }
+
+#universe.omegagt1 .galaxy {
+	animation-timing-function: ease-out;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
