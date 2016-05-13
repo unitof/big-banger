@@ -88,10 +88,11 @@ h1#title {
 
 .bootscreen {
 	transition: 0.5s opacity;
+	opacity: 0;
 }
 
-body.running .bootscreen {
-	opacity: 0;
+body.prebang .bootscreen {
+	opacity: 1;
 }
 
 	</style>
@@ -100,6 +101,7 @@ body.running .bootscreen {
 function runsimulation(omegaval) {
 	time = document.body;
 	universe = document.getElementById('universe');
+	time.classList.remove('prebang'); // reset #universe to pre-big bang
 	time.classList.remove('running'); // reset #universe to pre-big bang
 	universe.offsetWidth = universe.offsetWidth; // reflow the #universe to force animation iteration counts to reset
 	universe.className = omegaval; // set proper cubic-bezier function, defined in animations.css
@@ -108,7 +110,7 @@ function runsimulation(omegaval) {
 
 	</script>
 </head>
-<body>
+<body class="prebang">
 	<div id="background">
 		<h1 id="title" class="bootscreen">The Big Banger</h1>
 		<div id="controlpanel">
