@@ -10,7 +10,7 @@
 }
 
 @keyframes bigbang-g2 {
-	2% {
+	.8% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -21,7 +21,7 @@
 }
 
 @keyframes bigbang-g3 {
-	1% {
+	.4% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -32,7 +32,7 @@
 }
 
 @keyframes bigbang-g4 {
-	4% {
+	1.6% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -43,7 +43,7 @@
 }
 
 @keyframes bigbang-g5 {
-	3% {
+	1.2% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -54,7 +54,7 @@
 }
 
 @keyframes bigbang-g6 {
-	5% {
+	2.0% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -65,7 +65,7 @@
 }
 
 @keyframes bigbang-g7 {
-	7% {
+	2.8% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
@@ -76,7 +76,7 @@
 }
 
 @keyframes bigbang-g8 {
-	6% {
+	2.4% {
 		top: calc(50% - 6px);
 		left: calc(50% - 6px);
 	}
