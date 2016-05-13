@@ -43,13 +43,13 @@ div.galaxy {
 }
 
 	</style>
-	<script src="jquery-2.2.3.min.js"></script>
 	<script type="text/javascript">
 
 function runsimulation(omegaval) {
-	$('#universe').removeClass('running'); // reset #universe to pre-big bang
-	$('#universe').attr('class', omegaval); // set proper cubic-bezier function, defined in animations.css
-	$('#universe').addClass('running'); // begin simulation
+	universe = document.getElementById('universe');
+	universe.classList.remove('running'); // reset #universe to pre-big bang
+	universe.className = omegaval; // set proper cubic-bezier function, defined in animations.css
+	universe.classList.add('running'); // begin simulation
 }
 
 	</script>
