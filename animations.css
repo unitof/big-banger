@@ -104,7 +104,7 @@
 }
 
 #universe.omegagt1 .galaxy {
-	animation-timing-function: ease-out;
+	animation-timing-function: cubic-bezier(0,0,.58,1);
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
 }
