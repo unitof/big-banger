@@ -6,7 +6,7 @@ WORKDIR /app
 
 # if I understand, this will only re-reun npm i when package*.json changes
 # http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/
-COPY package*.json .
+COPY package*.json ./
 RUN npm install --only=production
 
 # copy rest of app
