@@ -1,0 +1,19 @@
+{
+  "name": "big-banger",
+  "version": "1.0.0",
+  "description": "CSS-based universe creation simulator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitof/big-banger.git"
+  },
+  "author": "Jacob Ford",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/unitof/big-banger/issues"
+  },
+  "homepage": "https://github.com/unitof/big-banger#readme"
+}
