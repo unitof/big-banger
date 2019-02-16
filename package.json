@@ -18,5 +18,8 @@
   "homepage": "https://github.com/unitof/big-banger#readme",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "now": {
+    "version": 2
   }
 }
