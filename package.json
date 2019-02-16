@@ -4,7 +4,8 @@
   "description": "CSS-based universe creation simulator",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now": "now ./public -A ../now.json"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "url": "https://github.com/unitof/big-banger/issues"
   },
   "homepage": "https://github.com/unitof/big-banger#readme",
-  "dependencies": {
-    "http-server": "^0.11.1"
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "now": "^14.0.0"
   }
 }
