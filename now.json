@@ -1,5 +1,8 @@
 {
   "version": 2,
   "name": "big-banger",
-  "alias": "bigbanger.jacobford.com"
+  "alias": "bigbanger.jacobford.com",
+  "github": {
+    "silent": true
+  }
 }
