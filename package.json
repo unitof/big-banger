@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "now dev",
     "now": "now ./public -A ../now.json",
     "deploy": "now alias $(now ./public -A ../now.json) bigbanger.jacobford.com"
   },
@@ -20,7 +21,6 @@
   "homepage": "https://github.com/unitof/big-banger#readme",
   "dependencies": {},
   "devDependencies": {
-    "http-server": "^0.11.1",
     "now": "^15.0.11"
   }
 }
