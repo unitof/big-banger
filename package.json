@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "now": "now ./public -A ../now.json"
+    "now": "now ./public -A ../now.json",
+    "deploy": "now alias $(now ./public -A ../now.json) bigbanger.jacobford.com"
   },
   "repository": {
     "type": "git",
