@@ -2,6 +2,22 @@
   "version": 2,
   "name": "big-banger",
   "alias": "bigbanger.jacobford.com",
+  "builds": [
+    {
+      "src": "public/**/*",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/research/(.*)",
+      "dest": "/research/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ],
   "github": {
     "silent": true
   }
