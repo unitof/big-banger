@@ -6,6 +6,10 @@
     {
       "src": "public/**/*",
       "use": "@now/static"
+    },
+    {
+      "src": "research/**/*",
+      "use": "@now/static"
     }
   ],
   "routes": [
